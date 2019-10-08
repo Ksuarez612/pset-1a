@@ -1,12 +1,34 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 999;
+  padding: 15;
 }
 
-header{
-    background-image: url(Images/griffey.jpg);
-    height: 100px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+#table1 table {
+  width: 500px
+}
+
+#table1 th {
+  text-align: center;
+}
+
+#table1 table, th, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+#table1 th, td{
+  padding: 10px;
+}
+
+#table1 caption {
+  font-weight: bold;
+  font-size: 23px
+}
+
+#table1 tr:nth-child(even){
+  background-color: #F9B654;
+}
+
+#table1 tr:nth-child(odd){
+  background-color: #5EC3FB;
 }
