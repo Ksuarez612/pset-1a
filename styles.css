@@ -1,34 +1,72 @@
-* {
-  margin: 999;
-  padding: 15;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-#table1 table {
-  width: 500px
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: #f4f4f4;
 }
 
-#table1 th {
-  text-align: center;
+.container{
+  width: 80%;
+  margin:auto;
+  overflow:hidden;
+}
+header ul{
+  margin:0;
+  padding:0
 }
 
-#table1 table, th, td {
-  border: 1px solid #000;
-  border-collapse: collapse;
+header{
+  background-color: #619DFE;
+  color: #ffffff;
+  padding-top: 10px;
+  min-height: 70px;
+  border-bottom: #FF4F4F 3px solid;
 }
 
-#table1 th, td{
-  padding: 10px;
-}
-
-#table1 caption {
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
   font-weight: bold;
-  font-size: 23px
 }
 
-#table1 tr:nth-child(even){
-  background-color: #F9B654;
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
 }
 
-#table1 tr:nth-child(odd){
-  background-color: #5EC3FB;
+header #branding{
+  float: left;
+}
+
+header #branding img{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 30px;
+}
+
+header .highlight, header .current a{
+  color: red;
+  font-weight: bolder;
+}
+
+header a:hover{
+  color: red;
+  font-weight: bolder;
+}
+
+div  #showcase{
+  background-image: url(Images/Griffey.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
